@@ -1,0 +1,16 @@
+Thao tác với repository ở local
+Với 2 command thường dùng là git add và git commit
+
+Git add: add file đã thay đổi vào stage
+Git commit các file đã add vào stage lên repository ở local Ngoài ra bạn xem một số command khác
+Làm việc với repository ở server GitHub
+Cuối cùng khi có một bản ổn định và hoàn tất ta sẽ quyết định cập nhật nó lên repository server với:
+
+push: push thay đổi từ repository local lên repository server
+fetch: cập nhật thay đổi từ repository server về repository local
+pull/rebase: sao chép source code từ server về local workspace (tương đương checkout của SVN)
+
+kiểm tra đường dẫn hiện tại : git remote -v
+
+
+Update lại URL của Git : git remote set-url origin <new_url>
