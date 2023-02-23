@@ -23,3 +23,5 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/ntq2k3work/testgit.git
 git push -u origin main
+
+Khi thay đổi phải add lại rồi commit \mới push lên đc
