@@ -2,6 +2,7 @@ Thao tác với repository ở local
 Với 2 command thường dùng là git add và git commit
 
 Git add: add file đã thay đổi vào stage
+git rm --cached <file>..." to unstage
 Git commit các file đã add vào stage lên repository ở local Ngoài ra bạn xem một số command khác
 Làm việc với repository ở server GitHub
 Cuối cùng khi có một bản ổn định và hoàn tất ta sẽ quyết định cập nhật nó lên repository server với:
@@ -14,3 +15,11 @@ kiểm tra đường dẫn hiện tại : git remote -v
 
 
 Update lại URL của Git : git remote set-url origin <new_url>
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ntq2k3work/testgit.git
+git push -u origin main
